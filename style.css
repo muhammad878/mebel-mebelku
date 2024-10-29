@@ -1,0 +1,215 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #ebf8ff, #ffffff);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+
+.main-content {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.main-content h1 {
+    font-size: 2.5rem;
+    color: #1a202c;
+}
+
+.main-content h2 {
+    font-size: 2.5rem;
+    color: #4299e1;
+    margin-top: 8px;
+}
+
+.main-content p {
+    color: #718096;
+    margin-top: 16px;
+    font-size: 1rem;
+}
+
+.foto-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.foto-section img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ 
+.content {
+    display: flex;
+    flex-direction: column; /* Menyusun konten secara vertikal */
+    align-items: center; /* Memusatkan konten secara horizontal */
+    padding: 50px 20px;
+}
+
+.features {
+    max-width: 600px; /* Mengatur lebar maksimum */
+    margin: 0 auto; /* Memusatkan fitur */
+    background-color: #ffffff; /* Warna latar belakang kotak */
+    border: 1px solid #4299e1; /* Border kotak */
+    border-radius: 10px; /* Sudut membulat */
+    padding: 20px; /* Ruang di dalam kotak */
+    /* Bayangan untuk efek kedalaman */
+}
+
+.features ul {
+    list-style-type: none; /* Menghapus gaya daftar default */
+    padding: 0; /* Menghapus padding default */
+}
+
+.features ul li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; /* Ukuran font */
+    margin-bottom: 15px; /* Jarak antar item */
+    color: #333; /* Warna teks */
+    padding: 10px; /* Ruang dalam item daftar */
+    background-color: #f9f9f9; /* Warna latar belakang item daftar */
+    border-radius: 5px; /* Sudut membulat item daftar */
+    transition: background-color 0.3s; /* Efek transisi untuk hover */
+}
+
+.features ul li:hover {
+    background-color: #e2e8f0; /* Warna latar belakang saat hover */
+}
+
+table {
+    width: 100%; /* Mengatur lebar tabel */
+    margin: 0 auto; /* Memusatkan tabel */
+}
+
+th {
+    background-color: #4299e1; /* Warna latar belakang header */
+    color: #fff; /* Warna teks header */
+}
+
+td {
+    color: #fff; /* Warna teks sel */
+}
+
+.price-table {
+    width: 100%; /* Mengatur lebar tabel */
+    border-collapse: collapse; /* Menghilangkan jarak antara border sel */
+    margin-top: 20px; /* Jarak atas tabel */
+    border-radius: 30px;
+}
+
+.price-table th,
+.price-table td {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    border: 0px solid #e8ecef; /* Border tabel */
+    padding: 10px; /* Ruang dalam sel */
+    text-align: left; /* Rata kiri */
+    color: #000; /* Mengubah warna teks menjadi hitam */
+    border-radius: 0px;
+}
+
+.price-table th {
+    background-color: #3f81b4; /* Warna latar belakang header */
+    color: #ffffff; /* Warna teks header tetap putih */
+    border-radius: 30px;
+}
+
+.price-table tr:nth-child(even) {
+    background-color: #ffffff; /* Warna latar belakang untuk baris genap */
+    border-radius: 10px;
+}
+
+.price-table tr:hover {
+    background-color: #e2e8f0; /* Warna latar belakang saat hover */
+}
+.horizontal-scroll {
+    overflow-x: auto; /* Mengizinkan scroll horizontal */
+    white-space: nowrap; /* Menjaga konten dalam satu baris */
+    padding: 20px;
+    margin-top: 20px;
+    background-color: none; /* Latar belakang section */
+    scrollbar-width: none; /* Sembunyikan scrollbar untuk Firefox */
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+    display: none; /* Sembunyikan scrollbar untuk Chrome, Safari, dan Edge */
+}
+
+.project-image {
+    width: 250px; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto; /* Biarkan tinggi menyesuaikan dengan lebar untuk menjaga proporsi */
+    border-radius: 5px; /* Tambahkan border-radius jika ingin sudut gambar melengkung */
+    margin-bottom: 10px; /* Tambahkan margin bawah untuk jarak antara gambar dan teks */
+}
+.project-card {
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: none;
+    text-align: center;
+    display: inline-block; /* Menyusun kartu dalam satu baris */
+    width: 300px; /* Lebar kartu */
+    margin-right: none; /* Jarak antar kartu */
+}
+.from{
+    border-radius: 30px;
+    padding: 20px;
+}
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    background: rgb(196, 203, 218);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-check {
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #8dc0f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.notification {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}

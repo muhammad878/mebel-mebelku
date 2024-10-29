@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisa Ekspor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">  
+            <!-- Logo -->
+            <div style="display: grid; grid-template-columns: auto 1fr; align-items: center;">
+                <img src="gambar/jayen-high-resolution-logo-transparent.png" width="80" height="90" alt="Logo">
+            </div>
+            <!-- Gift -->
+            <img src="gambar/3nRA.gif" alt="Animated Sticker" width="100">
+            <!-- Navigation -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu Utama</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#unggulan">Unggulan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Daftarlayanan">Daftar layanan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#order">order</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>    
+    <br><br><br> <br> <br>
+    <main class="main-content" id="home">
+        <h1>belanja mebel &amp; dengan cara mudah</h1>
+        <h2>dan kualitas kayu jati A-C </h2>
+        <p>mebel kami adalah spesiaslis kayu jati dari grate A sampai kayu mahoni , kami telah mengisi kursi DPR, furnitur Hotel, Vila bali</p>
+    </main>
+    <section class="foto-section">
+        <img src="gambar/IMG_20241029_163032.jpg" alt="Video Thumbnail">
+    </section>
+    <!--halaman list-->
+    <br> <br> <br> <br> <br>
+    <div class="content" id="unggulan">
+        <h2 class="text-center mb-5">Unggulan</h2>
+        <div class="features text-center">
+            <ul>
+                <li>&#10003; Proses dapat dilihat</li> 
+                <li>&#10003; Bisa request sesuai permintaan</li>
+                <li>&#10003; Harga lebih nyaman</li>
+            </ul>
+        </div>
+    </div>
+    <br> <br> <br> <br> <br> <br> <br>
+    <div class="container" id="Daftarlayanan">
+        <h2 class="text-center mb-5">Daftar Layanan dan Harganya</h2>
+        <table class="price-table">
+            <tr>
+                <th>Paket</th>
+                <th>Harga</th>
+                <th>Layanan</th>
+            </tr>
+            <tr>
+                <td>Jati Kelas C</td>
+                <td>Mulai RP. 2.000.000 - 5.000.000</td>
+                <td>Layanan sudah sama finishing</td>
+            </tr>
+            <tr>
+                <td>Jati Kelas B</td>
+                <td>Mulai RP. 4.000.000 - 7.000.000</td>
+                <td>Layanan sudah sama finishing</td>
+            </tr>
+            <tr>
+                <td>Jati Kelas A</td>
+                <td>Mulai RP. 7.000.000 - 10.000.000</td>
+                <td>Layanan sudah sama finishing</td>
+            </tr>
+        </table>
+    </div>
+    <br> <br> <br> <br> <br> 
+    <div class="horizontal-scroll">
+        <h2 class="text-neon"></h2>
+        <div class="project-card">
+            <img src="gambar/IMG_20241029_163141.jpg" alt="Galeri 1" class="project-image">
+            <h5></h5>
+        </div>
+        <div class="project-card">
+            <img src="gambar/IMG_20241029_164532.jpg" alt="Galeri 2" class="project-image">
+            <h5></h5>
+        </div>
+        <div class="project-card">
+            <img src="gambar/IMG_20241029_164600.jpg" alt="Galeri 3" class="project-image">
+            <h5></h5>
+        </div>
+    
+    </div>
+    <br> <br> <br> <br> <br> <br> <br>
+    <div class="form-container" id="order">
+        <form id="myForm">
+            <h2 class="text-center mb-5">silahkan order / tanya tanya </h2>
+            <div class="form-row text-center">
+                <div class="form-group text-center col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                </div>
+                <div class="form-group text-center col-md-6">
+                    <label for="inputnowa">nomer wa</label>
+                    <input type="nowa" class="form-control" id="inputnowa" placeholder="nowa" required>
+                </div>
+                <div class="form-group text-center col-md-6">
+                    <label for="inputpaket">paket yang di pilih</label>
+                    <input type="paket" class="form-control" id="inputpaket" placeholder="paket" required>
+                </div>
+            </div>
+            <div class="form-group text-center">
+                <label for="inputAddress">alamat</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="jepara......" required>
+            </div>
+            <button type="submit" class="btn">Sign in</button>
+        </form>
+        <div id="notification" class="notification" style="display: none;">Anda telah terdaftar!</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="style.js"></script>
+</body>
+</html>
